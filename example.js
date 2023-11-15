@@ -20,9 +20,9 @@ async function connect(){
         
         //const [rows]  = await con.execute("SELECT * FROM product");
 
-        const [rows, fields]  = await con.execute("SELECT * FROM product");
-
-        console.log(fields[0]);
+        //const [rows, fields]  = await con.execute("SELECT * FROM product");
+        //console.log(fields[0]);
+        //[fields] haulla löytyy helvetisti eri tietoja.
 
         //Luodaan alias productName producs_names tilalle. 'AS' ei ole välttämätön
 
